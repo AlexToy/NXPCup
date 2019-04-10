@@ -15,6 +15,7 @@ TIM_HandleTypeDef htim3;
 void MX_TIM3_Init();
 void motor_left_start();
 void motor_left_stop();
+void motor_left_setValue(unsigned char value);
 
 
 #endif /* MOTOR_LEFT_H_ */

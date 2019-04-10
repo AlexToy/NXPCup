@@ -15,5 +15,6 @@ TIM_HandleTypeDef htim2;
 void MX_TIM2_Init();
 void motor_right_start();
 void motor_right_stop();
+void motor_right_setValue(unsigned char value);
 
 #endif /* MOTOR_RIGHT_H_ */
