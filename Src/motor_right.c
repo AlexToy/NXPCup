@@ -60,3 +60,14 @@ void MX_TIM2_Init()
 	HAL_TIM_MspPostInit(&htim2);
 
 }
+
+void motor_right_start()
+{
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+	HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
+}
+
+void motor_right_stop()
+{
+
+}
